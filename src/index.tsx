@@ -1,8 +1,10 @@
 import ReactDom from 'react-dom';
 import Parent from './props-examples/Parent';
 import GuestList from './state-examples/GuestList';
-import UserSearch from './state-examples/UserSearch';
+//import UserSearch from './state-examples/UserSearch';
 import EventComponent from './events-examples/EventComponent';
+import UserSearch from './refs-examples/UserSearch';
+
 
 const App = ()=>{
  
@@ -13,7 +15,7 @@ const App = ()=>{
           <GuestList />
           <UserSearch />
           <EventComponent />
-        
+         
         </div>
     )
 };
